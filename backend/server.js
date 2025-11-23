@@ -1,11 +1,16 @@
 const express = require('express');
-const cors = require('cors');
 const bodyParser = require('body-parser');
 const productRoutes = require('./routes/products');
 
 const app = express();
 
-app.use(cors());
+const cors = require('cors');
+app.use(cors({
+  origin: "*",
+  methods: ["GET","POST","PUT","DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
 app.use(bodyParser.json());
 app.use('/uploads', express.static('uploads'));
 
