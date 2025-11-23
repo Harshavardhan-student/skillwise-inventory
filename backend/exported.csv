@@ -1,0 +1,8 @@
+name,unit,category,brand,stock,status,image
+Laptop,pcs,Electronics,Dell,15,In Stock,
+Mouse,pcs,Electronics,Logitech,50,In Stock,
+Keyboard,pcs,Electronics,Logitech,35,In Stock,
+Monitor,pcs,Electronics,Samsung,12,In Stock,
+Printer,pcs,Electronics,HP,5,In Stock,
+Cable,pcs,Electronics,Bolt,100,In Stock,
+Chair,pcs,Furniture,Ikea,20,In Stock,
